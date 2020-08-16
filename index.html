@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Todos</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@200&family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <!-- heading -->
+    <header>
+      <div class="box" id="heading"data-aos="flip-left" data-aos-duration = "600">
+          <div class="clear">
+            <i class="fa fa-refresh"></i>
+          </div>
+           <h1 >My <span>To-do</span> List</h1>
+           <br>
+           <div id="date"></div>
+     </div>
+    </header>
+    <!-- section -->
+     <section>
+      <div class="box">
+        <div class="item-list">
+            <!-- single item -->
+            <!-- <div class="item">
+                <input type="checkbox">
+                <p class="text">laundry</p>
+                <div class="item-icons">
+                    <a href="#" class="delete-item item-icon"><i class="fa fa-times-circle fa-2x"  job ="delete"></i></a>
+                </div>
+            </div> -->
+        </div>
+            <!-- form item -->
+        <div class="item" id="add-item">
+            <input type="text" name="newItem" placeholder="I want to do ..." id="Input" autocomplete="off">
+            <button type="submit" id="btn" ><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+    </div> 
+  </section>
+
+    <script src="main.js">
+       
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    AOS.init();</script>
+   
+  </body>
+</html>
